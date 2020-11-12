@@ -24,6 +24,7 @@ View messages and other content in group direct messages that Poetry Bot has bee
 
 ## Backend setup
 run `node index.js` on your server
+
 run `ngrok http <PORT>` to get it up and running with online access
+
 Make sure you enable events on slack. Your request URL will be `NGROK_URL/slack/events`
-host it somewhere if you want!
